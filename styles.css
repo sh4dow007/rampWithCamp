@@ -106,10 +106,10 @@ hr {
 
 /** header **/
 
-.hero {
+/* .hero {
   padding: 2rem;
   padding-top: 5rem;
-}
+} */
 
 .hero .hero-img {
   max-width: 80%;
@@ -120,7 +120,7 @@ hr {
 
 .hero .hero-heading {
   text-align: center;
-  padding-top: 1rem;
+  padding-bottom: 1rem;
   color: var(--dark-gray);
 }
 
@@ -188,6 +188,27 @@ hr {
 
 .showcase-blog {
   padding-bottom: 6rem;
+}
+
+.link-blog {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blog-hero {
+  max-width: 400px;
+  display: block;
+  margin: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.blog-img {
+  max-width: 600px;
+  display: block;
+  margin: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 @media (max-width: 900px) {
